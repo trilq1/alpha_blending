@@ -1,0 +1,20 @@
+
+# if __name__ == "__main__":
+#     main()
+
+# def main():
+
+#     bird_view_dir = "./data"
+
+#     files = sorted([i for i in os.listdir(bird_view_dir) if ".jpg" in i])
+
+#     # Create blank image for blending
+#     tiled360DegreesBirdsEyeView = np.zeros((640,640,3))
+
+#     for f in files:
+#         bevImg = cv2.imread(os.getcwd()+"/data/" + f, cv2.IMREAD_COLOR)
+#         tiled360DegreesBirdsEyeView = helperBlendImages(tiled360DegreesBirdsEyeView, bevImg)
+        
+#     cv2.imwrite("./output/output.png", tiled360DegreesBirdsEyeView)
+
+#     return 0
